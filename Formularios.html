@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration Form</title> 
+</head> 
+    <body>
+        <form action="process" method="post">
+            <div>
+                <label> First name * </label>
+                <input type="text" name="nombre">
+            </div>
+            <div>
+                <label> Last Name *</label>
+                <input type="text" name="apellido">
+                <label for="apellido">apellido materno</label>
+                <input type="text" name="apellido 2">
+                <label for="apellido 2">apelldio paterno</label>
+            </div>
+            <div>
+                <label> Email Address *</label>
+                <input type="email" name="correo">
+            </div>
+            <div>
+                <label>Password *</label>
+                <input type="password" name="password" id="1">
+            </div>
+            <div>
+                <label>Confirm Password *</label>
+                <input type="password" name="password" id="2">
+            </div>
+            <div>
+                <label>Birthday </label>
+                <input type="date" name="Cumpleaños" id="1">
+            </div>
+                <label>Gender Identify:</label>
+                <div>
+                    <input type="radio" name="1" id="1">
+                    <label for="1">Female</label>
+                    <input type="radio" name="2" id="2">
+                    <label for="2">No binario</label>
+                    <input type="radio" name="3" id="3">
+                    <label for="3">I prefer not to answer</label>
+                    <input type="radio" name="4" id="4">
+                    <label for="4">Male</label>
+                </div>
+            </div>
+            <div>
+                <label>A short description about myself:</label>
+                <div>
+                    <textarea name="Comment" id="descripcion" cols="50" rows="10"></textarea>
+                </div>
+            </div>
+            <div><label>Favorite Food</label>
+                <select name="Comida Favorita">
+                    <option value="1">China</option>
+                    <option value="2">Spanish</option>
+                    <option value="3">Italian</option>
+                </select>
+            </div>
+            <div>
+                <label for="Yes">Yes, I would to receive periodic email updates</label>
+                <input type="checkbox" name="Yes" id="check">
+                <label for="Yes">No, I wouldn't to receive periodic email updates</label>
+                <input type="checkbox" name="Yes" id="check">
+            </div>
+            <div>
+                <input type="submit" value="CLICK">
+                <input type="color" name="color click">
+            </div>
+        </form>
+    </body>
+</html>
