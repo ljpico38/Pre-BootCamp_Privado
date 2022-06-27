@@ -1,7 +1,8 @@
-#container{
-	background-color: grey;
+.box-1{
 	width:960px;
-	/*overflow: hidden;
+    text-align: center;
+    box-shadow: 50px;
+    /*overflow: hidden;
 	height: auto;*/
 }
 #box-1, #box-2, #box-3{
