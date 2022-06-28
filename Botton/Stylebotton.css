@@ -1,29 +1,47 @@
-.box-1{
+.general{
+    padding: 40px 10px 50px 35px;
+    background-color: bisque;
+}
+/*.box-1{
 	width:960px;
-    text-align: center;
-    box-shadow: 50px;
-    /*overflow: hidden;
-	height: auto;*/
-}
-#box-1, #box-2, #box-3{
-    height: 100px;
-    width: 100px;
-    background-color: red;
-}
-#box-1{
+    text-align: left;
+    border-radius: 50%;
+}*/
+
+.box-1, .box-2, .box-3{
     margin: 20px;
 }
-#box-2{
-    margin: 30px;
-}
-#box-3{
-    margin: 40px;
+.busqueda{
+    height: 30px;
+    width: 100px;
+    background-color:white;
+    border-radius: 30px;
+    color: black;
+    border-color: aqua;
+    color: greenyellow;
+    
 }
 
-/*#box-1, #box-2, #box-3, #box-4{
-	float:right;
+.box-2 .mas{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #056;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 9px #999;
 }
 
-.clear{
-	clear: both;
+.creacuenta{
+    background-color: rgb(47, 17, 218);
+    width: 10%;
+    height: 10%;
+    color: beige;
+    border: black;
+    box-shadow: 0 5px rgb(19, 14, 14);
 }
