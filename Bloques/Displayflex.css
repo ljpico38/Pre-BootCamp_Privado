@@ -1,7 +1,7 @@
 .container{
     width: 1200px;
     background-color: silver;
-    margin: 0px auto;
+    margin: auto;
     padding: 20px;
 }
 .top-nav {
@@ -13,26 +13,26 @@
     height: 400px;
     width: 200px;
     background-color: blue;
-    /*display: inline;*/
+    margin: 20px;
 }
 .main {
     height: 400px;
     width: 700px;
     background-color: red;
     margin-left: 15px;
-    padding: 10px;
+    align-items: center;
 }
 .sub-content {
     height: 200px;
     width: 180px;
     background-color: yellow;
-    margin: 15px;
+    margin: 30px;
 }
 #advertisement {
     height: 120px;
     width: 660px;
     background-color: purple;
-    margin: 15px;
+    margin: auto;
     
 }
 .row {
