@@ -1,12 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: aqua;
+    background-color: whitesmoke;
 }
 
 .Contenedor{
-    width: 100%;
+    width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.tarjetacompleta{
+    width: 100%;
+    background-color: aqua;
+    border: 5px solid black;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    font-size: small;
+    overflow: hidden;
+}
+
+.encabezado{
+    background-color: aquamarine;
+    margin-bottom: 90px;
+    height: 125px;    
+}
+
+.cuerpo{
+    padding: 20px;
+}
+
+.cuerpo {
+    margin: 20px;
+}
+
+.fotoperfil{
+    border-radius: 50%;
+    background-color: beige;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    opacity: 2;
+}
+
+.rueda{
+    border-radius: 50%;
+    background-color: blue;
+    height: 40px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    opacity: 2;
+}
