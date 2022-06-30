@@ -1,0 +1,31 @@
+.nav{
+    background-color: gray;
+    color: black;
+    height: 40px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+li{
+    margin: 15px;
+}
+
+.nav-links.active{
+    font-weight: 900;
+}
+
+.btn{
+    
+}
+.titular{
+    text-align: justify;
+    color: black;
+    margin-bottom: 0%;
+}
