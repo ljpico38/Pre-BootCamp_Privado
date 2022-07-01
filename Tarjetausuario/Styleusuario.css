@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 20;
 }
 
 body{
@@ -17,7 +17,7 @@ body{
 
 .tarjetacompleta{
     width: 100%;
-    background-color: aqua;
+    background-color: whitesmoke;
     border: 5px solid black;
     margin-bottom: 25px;
     border-radius: 5px;

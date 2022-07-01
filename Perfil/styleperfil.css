@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, Times New Roman;
+    background-color: whitesmoke;
+}
+
+.encabezado {
+    background-color: #333333;
+    color: white;
+    width: auto;
+    height: 50px;
+    margin-bottom: 70px;
+}
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 50%;
+    display: flex;
+    align-items: stretch ;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: cyan;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card, .card {
+    width: 100%;
+    background-color: white;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: cyan;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 30px 0px;
+}
+
+.circuloperfil {
+    border-radius: 50%;
+    background-color: white;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.rueda {
+    height: 20px;
+    color: firebrick;
+}
+
+a {
+    color: firebrick;
+}
+
+.header {
+    background-color: #333333;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.fotitos {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999;
+}
+
+.connection {
+    background-color: #eee;
+    color: rgb(82, 47, 47);
+    font-size: 20px;
+    border-radius: 80%;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
