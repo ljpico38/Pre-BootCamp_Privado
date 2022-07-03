@@ -3,6 +3,11 @@
     padding: 20;
 }
 
+.ubicacion{
+    height: auto;
+    font-size: auto;
+}
+
 body{
     background-color: whitesmoke;
 }
@@ -31,12 +36,11 @@ body{
     height: 125px;    
 }
 
-.cuerpo{
+.cuerpo, p{
     padding: 20px;
-}
-
-.cuerpo {
     margin: 20px;
+    font-size: 3rem ;
+    font-weight: 600;
 }
 
 .fotoperfil{
@@ -50,11 +54,13 @@ body{
 }
 
 .rueda{
-    border-radius: 50%;
-    background-color: blue;
     height: 40px;
     padding: 5px;
     margin-top: 20px;
     margin-left: 20px;
     opacity: 2;
+}
+
+.rueda, a{
+    font-size: 12px;
 }

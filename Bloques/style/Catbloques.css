@@ -7,32 +7,36 @@
 }
 
 h1 {
-    margin-top: 0;
     margin-bottom: 20px;
-    align-items: center;
+    margin-left: 30%;
 }
 
 img.octocat {
     height: 200px;
+    border-radius: 50%;
 }
 
-.row{
+.uno, .dos, .tres{
     display: flex;
-    justify-content: space-between;
     background-color: #fff;
     margin: 20px;
     padding: 20px;
 }
 
-.pink {
+.uno {
     background-color: lightpink;
     justify-content: center;
 }
 
-.blue {
+.dos {
     background-color: cyan;
+    justify-content: space-between;
 }
 
+.tres{
+    background-color: whitesmoke;
+    justify-content: space-around;
+}
 p {
     text-align: center;
 }
