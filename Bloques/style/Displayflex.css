@@ -1,7 +1,7 @@
 .container{
     width: 1200px;
     background-color: silver;
-    margin: auto;
+    //*margin: auto;*/
     padding: 20px;
 }
 .top-nav {
@@ -9,26 +9,29 @@
     background-color: green;
     margin: 15px;
 }
-.side-nav {
+/*.side-nav {
     height: 400px;
     width: 200px;
     background-color: blue;
     margin: 20px;
-}
+}*/
 
 
 .main {
     height: 400px;
-    width: 700px;
+    /*width: 700px;*/
     background-color: red;
-    margin-left: 15px;
-    align-items: center;
+    margin: 15px;
+    /*margin-left: 15px;*/
+    /*align-items: center;*/
 }
 .sub-content {
     height: 200px;
     width: 180px;
     background-color: yellow;
     margin: 30px;
+    display: flex;
+    align-items: center;
 }
 #advertisement {
     height: 120px;
@@ -38,5 +41,5 @@
     
 }
 .row {
-    display: flex;
+    /*display: flex;
 }
